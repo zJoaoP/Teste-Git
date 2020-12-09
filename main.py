@@ -14,5 +14,11 @@ def div(a, b):
 def mul(a, b):
 	return a * b
 
+def fat(n):
+	if n > 0:
+		return n * fat(n - 1)
+	else:
+		return 1
+
 if __name__ == '__main__':
 	print("Nothing to see here")
