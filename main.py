@@ -26,5 +26,9 @@ def fat(n):
 	else:
 		return 1
 
+def long_logic(n):
+	print(n)
+	pass
+
 if __name__ == '__main__':
 	print("Nothing to see here")
